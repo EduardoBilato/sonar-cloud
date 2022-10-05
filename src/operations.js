@@ -20,7 +20,7 @@ function square(a, b) {
 
 function specialSum(a, b) {
     const factor = a * b;
-    return (a * factor) + (b) * factor);
+    return (a * factor) + (b * factor);
 }
 
 module.exports = {
