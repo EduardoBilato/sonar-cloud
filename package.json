@@ -1,0 +1,24 @@
+{
+  "name": "sonar-cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest -- --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoBilato/sonar-cloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoBilato/sonar-cloud/issues"
+  },
+  "homepage": "https://github.com/EduardoBilato/sonar-cloud#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
