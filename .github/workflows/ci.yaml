@@ -13,5 +13,6 @@ jobs:
         with:
           node-version: 16
           ache: 'npm'
+      - run: npm install
       - run: npm test
       
