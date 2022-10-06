@@ -18,4 +18,4 @@ jobs:
       - name: Configure CI
         run: npm ci
       - name: Play tests
-        run: npm test -- --coverage
+        run: npm test
