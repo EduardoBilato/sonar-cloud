@@ -29,6 +29,15 @@
 
 # comandos úteis
 
+subir o container com o sonarqube
 ```bash
 docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest
+```
+
+rodar o scanner no projeto atual
+```bash
+sonar-scanner \
+  -Dsonar.projectKey=<project name here> \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://localhost:9000
 ```
