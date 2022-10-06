@@ -23,6 +23,11 @@ function specialSum(a, b) {
     return (a * factor) + (b * factor);
 }
 
+function specialTimes(a, b) {
+    const factor = a * b;
+    return (a + factor) * (b + factor);
+}
+
 module.exports = {
     sum,
     minus,
@@ -30,4 +35,5 @@ module.exports = {
     div,
     square,
     specialSum,
+    specialTimes,
 };
